@@ -1,0 +1,42 @@
+Ralink AP SDK - History
+
+Version 3.3.0.0
+===============
+Driver update:
+
+- [Wifi] AP driver v2.2.0.0
+- [Wifi] STA driver v2.0.0.0
+- [USB] USB driver updated to v2.72
+- [iNIC] RT305x Mii iNIC v2.0
+- [Ethernet] Raeth Driver v2.0
+- [Wifi/WSC] wscd update
+- [Wifi/WebUI] WPS update
+- [Wifi/802.1x] rt2860apd update
+- [Wifi/WAPI] add wapi daemon
+
+Reference design:
+
+- [SDK] 3G dongle support(Huawei E169, NU MU-Q101, BandLuxe C270)
+- [SDK] DualImage 
+
+New Feature:
+
+- [Apps] Bluetooth utility
+- [Apps] Ixia endpoint v6.7
+- [Apps] Printer server (P910nd)
+- [APPs] Upgrade ntfs-3g to support utf8
+- [WebUI] AP Isolated and Hidden BSSID for each SSID
+- [WebUI] System Command: "repeat last command"
+- [WebUI] add generating PIN Code Button
+- [NVRAM] add WscVenPINCode item in ralink_init.c
+- [IGMPProxy] support forwarding multicast packets to specific port instead of flooding (need latest RT3052)
+- [WiFi] CoC function support
+
+Peripheral Components:
+
+- [RT305x] Boot From SPI Flash
+- [RT305x] Samsung/Numonix/SST Nor Flash
+- [RT305x/Switch] RT305x with Vitesse switch
+- [RT305x/PCM] SLIC si3210 support
+- [RT305x/I2S] Add config for 12Mhz or 12.288 Mhz external master clock. 
+

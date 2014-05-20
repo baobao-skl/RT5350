@@ -1,0 +1,170 @@
+sdparm.o sdparm.o: sdparm.c \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/unistd.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/features.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/uClibc_config.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/cdefs.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/posix_opt.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/types.h \
+  /opt/buildroot-gcc342.5350/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stddef.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/kernel_types.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/wordsize.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/pthreadtypes.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/sched.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/confname.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/getopt.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/fcntl.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/fcntl.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/types.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/time.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/endian.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/endian.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/select.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/select.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/sigset.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/time.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/sysmacros.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/stdio.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/uClibc_stdio.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/wchar.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/wchar.h \
+  /opt/buildroot-gcc342.5350/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/stdio_lim.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/stdlib.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/alloca.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/string.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/ctype.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/uClibc_touplow.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/inttypes.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/stdint.h \
+  ../config.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/getopt.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/errno.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/errno.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/errno_values.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/ioctl.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/ioctls.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/asm/ioctls.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/asm/ioctl.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/ioctl-types.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/ttydefaults.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/stat.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/stat.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/utsname.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/utsname.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/scsi/scsi.h \
+  /home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/scsi/sg.h \
+  sdparm.h ../include/sg_lib.h ../include/sg_cmds_basic.h
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/unistd.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/features.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/uClibc_config.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/cdefs.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/posix_opt.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/types.h:
+
+/opt/buildroot-gcc342.5350/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stddef.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/kernel_types.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/wordsize.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/pthreadtypes.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/sched.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/confname.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/getopt.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/fcntl.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/fcntl.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/types.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/time.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/endian.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/endian.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/select.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/select.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/sigset.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/time.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/sysmacros.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/stdio.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/uClibc_stdio.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/wchar.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/wchar.h:
+
+/opt/buildroot-gcc342.5350/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/stdio_lim.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/stdlib.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/alloca.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/string.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/ctype.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/uClibc_touplow.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/inttypes.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/stdint.h:
+
+../config.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/getopt.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/errno.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/errno.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/errno_values.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/ioctl.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/ioctls.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/asm/ioctls.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/asm/ioctl.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/ioctl-types.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/ttydefaults.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/stat.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/stat.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/sys/utsname.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/bits/utsname.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/scsi/scsi.h:
+
+/home/niehao/work/MIPS/5350_SDK/5350_source/lib/include/scsi/sg.h:
+
+sdparm.h:
+
+../include/sg_lib.h:
+
+../include/sg_cmds_basic.h:

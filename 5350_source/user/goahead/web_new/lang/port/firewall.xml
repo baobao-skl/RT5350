@@ -1,0 +1,87 @@
+<po>
+  <message msgid="firewall disable" msgstr="Desabilitar" />
+  <message msgid="firewall enable" msgstr="Habilitar" />
+  <message msgid="firewall apply" msgstr="Aplicar" />
+  <message msgid="firewall reset" msgstr="Resetar" />
+  <message msgid="firewall del select" msgstr="Deletar Selecionados" />
+  <message msgid="firewall no" msgstr=" Não." />
+  <message msgid="firewall protocol" msgstr="Protocolo" />
+  <message msgid="firewall comment" msgstr="Comentário" />
+  <message msgid="firewall default drop" msgstr="Outros seriam retiradas" />
+  <message msgid="firewall default accept" msgstr="Outras seriam aceitas" />
+  
+  <message msgid="port title" msgstr="Definições de filtro de MAC/IP/Porta" />
+  <message msgid="port introduction" msgstr="Você pode configurar regras de firewall para proteger sua rede contra vírus, worms e atividades maliciosas na Internet." />
+  <message msgid="port basic setting" msgstr="Configurações Básicas" />
+  <message msgid="port basic filter" msgstr="Filtragem MAC/IP/Porta" />
+  <message msgid="port basic default policy" msgstr="Política Default -- Default Policy - O pacote que não correspondem com as regras seriam:" />
+  <message msgid="port basic default policy accepted" msgstr="Aceito" />
+  <message msgid="port basic default policy dropped" msgstr="Recusado" />
+  <message msgid="port filter setting" msgstr="Configurações de filtro MAC/IP/Porta" />
+  <message msgid="port filter macaddr" msgstr="Endereço MAC" />
+  <message msgid="port filter source ipaddr" msgstr="Endereço IP Source" />
+  <message msgid="port filter port range" msgstr="Port Range" />
+  <message msgid="port filter dest ipaddr" msgstr="Endereço IP Dest" />
+  <message msgid="port filter action" msgstr="Ação" />
+  <message msgid="port filter action drop" msgstr="Recusar" />
+  <message msgid="port filter action accept" msgstr="Aceitar" />
+  <message msgid="port current filter" msgstr="Atuais regras de filtragem do sistemas MAC/IP/Porta: " />
+  <message msgid="port filter source port range" msgstr="Source Port Range" />
+  <message msgid="port filter dest port range" msgstr="Dest Port Range" />
+  <message msgid="port filter packetcount" msgstr="Pkt Cnt" />
+
+  <message msgid="forward title" msgstr="Configurações do Servidor Virtual" />
+  <message msgid="forward introduction" msgstr="Você pode configurar Servidores virtuais para prestação de serviços na Internet." />
+  <message msgid="forward virtual server" msgstr="Configurações do Servidor Virtual" />
+  <message msgid="forward virtual server setting" msgstr="Configurações do Servidor Virtual" />
+  <message msgid="forward virtual server ipaddr" msgstr="Endereço IP" />
+  <message msgid="forward virtual server port range" msgstr="Intervalo de Porta" />
+  <message msgid="forward current virtual server" msgstr="Servidores virtuais no sistema atual: " />
+
+  <message msgid="dmz title" msgstr="Configurações DMZ" />
+  <message msgid="dmz introduction" msgstr="Você pode configurar um De-militarized Zone(DMZ) para separar da rede interna e internet." />
+  <message msgid="dmz setting" msgstr="Configurações DMZ" />
+  <message msgid="dmz ipaddr" msgstr="Endereço IP DMZ" />
+
+  <message msgid="content filter title" msgstr="Configurações de Filtro de Conteúdo" />
+  <message msgid="content filter introduction" msgstr="Você pode configurar o Filtro de Conteúdo para restringir o acesso a conteúdo impróprio." />
+  <message msgid="content filter webs content filter" msgstr="Filtro de Conteúdo Web" />
+  <message msgid="content filter webs content filter filter" msgstr="Filtros:" />
+  <message msgid="content filter webs content filter apply" msgstr="Aplicar" />
+  <message msgid="content filter webs content filter reset" msgstr="Resetar" />
+  <message msgid="content filter webs URL filter title" msgstr="Definições de filtros URL Webs" />
+  <message msgid="content filter webs url filter current" msgstr="Atuais filtros URL Webs:" />
+  <message msgid="content filter webs url fitler No" msgstr="Não" />
+  <message msgid="content filter webs url fitler url" msgstr="URL" />
+  <message msgid="content filter webs url fitler del" msgstr="Deletar" />
+  <message msgid="content filter webs url fitler reset" msgstr="Resetar" />
+  <message msgid="content filter webs url fitler add title" msgstr="Adicionar um filtro de URL:" />
+  <message msgid="content filter webs url fitler add" msgstr="Adicionar" />
+  <message msgid="content filter webs url fitler reset" msgstr="Resetar" />
+  <message msgid="content filter webs url fitler reset1" msgstr="Resetar" />
+  <message msgid="content filter webs host fitler title" msgstr="Configurações de filtros Host Webs" />
+  <message msgid="content filter webs host fitler current" msgstr="Filtros atuais de Website Host:" />
+  <message msgid="content filter webs host fitler no" msgstr="Não" />
+  <message msgid="content filter webs host fitler host" msgstr="Host(Keyword)" />
+  <message msgid="content filter webs host fitler del" msgstr="Deletar" />
+  <message msgid="content filter webs host fitler reset" msgstr="Resetar" />
+  <message msgid="content filter webs host fitler add title" msgstr="Add a Host(keyword) Filter:" />
+  <message msgid="content filter webs host fitler keyword" msgstr="Keyword" />
+  <message msgid="content filter webs host fitler add" msgstr="Adicionar" />
+  <message msgid="content filter webs host fitler reset" msgstr="Resetar" />
+
+  <message msgid="sysfw title" msgstr="Configurações de Segurança no Sistema" />
+  <message msgid="sysfw introduction" msgstr="Você pode configurar o firewall do sistema AP/Router para se proteger do ataque." />
+  <message msgid="sysfw remote management title" msgstr="Gerenciamento Remoto" />
+  <message msgid="sysfw remote management head" msgstr="Gerenciamento Remoto (via WAN)" />
+  <message msgid="sysfw allow" msgstr="Permitir" />
+  <message msgid="sysfw deny" msgstr="Negar" />
+  <message msgid="sysfw remote access port" msgstr="Porta de Acesso Remoto" />  
+  <message msgid="sysfw wanping title" msgstr="Ping form WAN Filter" />
+  <message msgid="sysfw wanping head" msgstr="Ping form WAN Filter" />
+  <message msgid="sysfw spi title" msgstr="Stateful Packet Inspection (SPI)" />
+  <message msgid="sysfw spi head" msgstr="SPI Firewall" />
+  <message msgid="sysfw apply" msgstr="Aplicar" />
+  <message msgid="sysfw reset" msgstr="Resetar" />
+
+</po>

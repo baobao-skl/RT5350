@@ -1,0 +1,292 @@
+<po>
+  <message msgid="wireless apply" msgstr="Aplicar" />
+  <message msgid="wireless cancel" msgstr="Cancelar" />
+  <message msgid="wireless close" msgstr="Fechar" />
+  <message msgid="wireless enable" msgstr="Habilitar" />
+  <message msgid="wireless disable" msgstr="Desabilitar" />
+  <message msgid="wireless allow" msgstr="Permitir" />
+  <message msgid="wireless reject" msgstr="Rejeitar" />
+  <message msgid="wireless auto" msgstr="Auto" />
+  <message msgid="wireless long" msgstr="Long" />
+  <message msgid="wireless on" msgstr="On" />
+  <message msgid="wireless off" msgstr="Off" />
+  <message msgid="wireless none" msgstr="Nenhum" />
+
+  <message msgid="station add" msgstr="Adicionar" />
+  <message msgid="station del" msgstr="Deletar" />
+  <message msgid="station edit" msgstr="Editar" />
+  <message msgid="station active" msgstr="Ativar" />
+  <message msgid="station enable" msgstr="Habilitar" />
+  <message msgid="station used" msgstr=" Usado&#160;&#160;" />
+  <message msgid="station select" msgstr="&#160;" />
+  <message msgid="station ssid" msgstr="SSID" />
+  <message msgid="station channel" msgstr="Canal" />
+  <message msgid="station encryp" msgstr="Criptografia" />
+  <message msgid="station auth" msgstr="Autenticação" />
+  <message msgid="station network type" msgstr="Tipo de Rede" />
+
+  <message msgid="basic title" msgstr="Configurações básicas da Wireless" />
+  <message msgid="basic introduction" msgstr="Você pode configurar o número mínimo de Wireless sem fio para comunicação, com o nome da Rede(SSID) e do Canal. O Access Point pode ser definido simplesmente com apenas os itens de configuração mínima." />
+  <message msgid="basic wireless network" msgstr="Rede Wireless" />
+  <message msgid="basic radio button" msgstr="Radio On/Off" />
+  <message msgid="basic network mode" msgstr="Modo de Rede" />
+  <message msgid="basic ssid" msgstr="Nome da Rede(SSID)" />
+  <message msgid="basic multiple ssid" msgstr="Múltiplas SSID" />
+  <message msgid="basic hssid" msgstr="Oculto" />
+  <message msgid="basic isolated" msgstr="Isolado" />
+  <message msgid="basic broadcast ssid" msgstr="Nome da Rede(SSID) Broadcast " />
+  <message msgid="basic apisolated" msgstr="Isolamento AP" />
+  <message msgid="basic mbssidapisolated" msgstr="Isolamento MBSSID AP" />
+  <message msgid="basic bssid" msgstr="BSSID" />
+  <message msgid="basic frequency" msgstr="Frequência (Canal)" />
+  <message msgid="basic frequency auto" msgstr="Seleção Automática" />
+  <message msgid="basic rate" msgstr="Variação" />
+  <message msgid="basic wds title" msgstr="Sistema de Distribuição Sem Fio" />
+  <message msgid="basic wds title1" msgstr="Sistema de Distribuição Sem Fio" />
+  <message msgid="basic wds title setting" msgstr="Configuração do Sistema de Distribuição Sem Fio" />
+  <message msgid="basic wds mode" msgstr="Modo DSW" />
+  <message msgid="basic wds phy mode" msgstr="Modo Phy" />
+  <message msgid="basic wds encryp type" msgstr="Tipo de Encriptação" />
+  <message msgid="basic wds encryp key" msgstr="Encriptação de Chave" />
+  <message msgid="basic wds ap macaddr" msgstr="Endereço MAC AP MAC" />
+  <message msgid="basic ht phy mode" msgstr="Modo físico HT" />
+  <message msgid="basic ht op mode" msgstr="Modo Operação" />
+  <message msgid="basic ht op mixed" msgstr="Modo Misto" />
+  <message msgid="basic ht op green" msgstr="Campo Verde" />
+  <message msgid="basic ht channel bandwidth" msgstr="Canal Banda Larga" />
+  <message msgid="basic ht guard interval" msgstr="Intervalo de Proteção" />
+  <message msgid="basic ht rdg" msgstr="Permitir Direção Reversa" />
+  <message msgid="basic ht extension channel" msgstr="Canal de extensão" />
+  <message msgid="basic ht amsdu" msgstr="Aggregation MSDU(A-MSDU)" />
+  <message msgid="basic ht addba" msgstr="Bloqueio Auto ACK" />
+  <message msgid="basic ht delba" msgstr="Recusar Pedido BA" />
+  <message msgid="basic okther" msgstr="Outro" />
+  <message msgid="basic ht txstream" msgstr="HT TxStream" />
+  <message msgid="basic ht rxstream" msgstr="HT RxStream" />
+
+  <message msgid="adv title" msgstr="Configurações Avançadas de Wireless " />
+  <message msgid="adv introduction" msgstr="Use a página Configuração avançada para fazer configurações detalhadas para o Wireless. Configuração avançada inclui itens que não estão disponíveis a partir da página de configuração básica, como o Intervalo de Sinalização, Controle de Velocidade e Dados Básicos da Velocidade." />
+  <message msgid="adv wireless" msgstr="Wireless Avançado" />
+  <message msgid="adv bgpro" msgstr="BG Modo de Proteção" />
+  <message msgid="adv basic data rate" msgstr="Dados Básicos da Velocidade" />
+  <message msgid="adv basic data rate default" msgstr="Padrão(1-2-5.5-11 Mbps)" />
+  <message msgid="adv basic data rate all" msgstr="Todos(1-2-5.5-6-11-12-24 Mbps)" />
+  <message msgid="adv beacon interval" msgstr="Intervalo de Sinalização" />
+  <message msgid="adv beacon interval range" msgstr="(alcance 20 - 999, padrão 100)" />
+  <message msgid="adv dtim" msgstr="Dados da Taxa de Velocidade" />
+  <message msgid="adv dtim range" msgstr="(alcance 1 - 255, padrão 1)" />
+  <message msgid="adv fragment threshold" msgstr="Início do Fragmento" />
+  <message msgid="adv fragment threshold range" msgstr="(alcance 256 - 2346, padrão 2346)" />
+  <message msgid="adv rts threshold" msgstr="RTS Threshold" />
+  <message msgid="adv rts threshold range" msgstr="(alcance 1 - 2347, padrão 2347)" />
+  <message msgid="adv tx power" msgstr="TX Power" />
+  <message msgid="adv tx power range" msgstr="(alcance 1 - 100, padrão 100)" />
+  <message msgid="adv short preamble" msgstr="Introdução Curta " />
+  <message msgid="adv short slot" msgstr="Abertura Curta " />
+  <message msgid="adv tx burst" msgstr="Tx Burst" />
+  <message msgid="adv pkt aggregate" msgstr="Pkt_Aggregate" />
+  <message msgid="adv 80211h" msgstr="IEEE 802.11H Support" />
+  <message msgid="adv 80211h disable describe" msgstr="(apenas em uma banda)" />
+  <message msgid="adv rdregion" msgstr="DFS RDRegion" />
+  <message msgid="adv country code" msgstr="Código do país" />
+  <message msgid="adv country code us" msgstr="US (United States)" />
+  <message msgid="adv country code jp" msgstr="JP (Japan)" />
+  <message msgid="adv country code fr" msgstr="FR (France)" />
+  <message msgid="adv country code tw" msgstr="TW (Taiwan)" />
+  <message msgid="adv country code ie" msgstr="IE (Ireland)" />
+  <message msgid="adv country code hk" msgstr="HK (Hong Kong)" />
+  <message msgid="adv country code br" msgstr="BR (Brasil)" />
+  <message msgid="adv carrier" msgstr="Detecção de transmissor" />
+  <message msgid="adv wmm" msgstr="Multimídia Wi-Fi" />
+  <message msgid="adv wmm capable" msgstr="Capacidade WMM" />
+  <message msgid="adv apds capable" msgstr="Capacidade APSD" />
+  <message msgid="adv dls capable" msgstr="Capacidade DLS" />
+  <message msgid="adv wmm parameter" msgstr="Parametros WMM" />
+  <message msgid="adv wmm configuration" msgstr="Configuração WMM" />
+  <message msgid="adv multicast2unicast converter" msgstr="Transformador Multicast-to-Unicast" />
+  <message msgid="adv multicast2unicast" msgstr="Multicast-to-Unicast" />
+  <message msgid="wmm ap parameter" msgstr="Parâmetros do Ponto de Acesso WMM" />
+  <message msgid="wmm sta parameter" msgstr="Parâmetros da Estação WMM" />
+
+  <message msgid="secure select ssid" msgstr="Selecione SSID" />
+  <message msgid="secure ssid title" msgstr="Configurações Wireless Segurança/Criptografia" />
+  <message msgid="secure ssid introduction" msgstr="Instalação de segurança sem fio e de encriptação para evitar o acesso não autorizado e monitoração." />
+  <message msgid="secure ssid choice" msgstr="Opção SSID" />
+  <message msgid="secure security policy" msgstr="Política de Segurança -- " />
+  <message msgid="secure security mode" msgstr="Modo de Segurança" />
+  <message msgid="secure encryp type" msgstr="Criptografar Tipo" />
+  <message msgid="secure wep" msgstr="Wire Equivalence Protection (WEP)" />
+  <message msgid="secure wep default key" msgstr="Chave Padrão "/>
+  <message msgid="secure wep default key1" msgstr="Chave 1" />
+  <message msgid="secure wep default key2" msgstr="Chave 2" />
+  <message msgid="secure wep default key3" msgstr="Chave 3" />
+  <message msgid="secure wep default key4" msgstr="Chave 4" />
+  <message msgid="secure wep key" msgstr="Chaves WEP" />
+  <message msgid="secure wep key1" msgstr="Chave WEP 1 :" />
+  <message msgid="secure wep key2" msgstr="Chave WEP 2 :" />
+  <message msgid="secure wep key3" msgstr="Chave WEP 3 :" />
+  <message msgid="secure wep key4" msgstr="Chave WEP 4 :" />
+  <message msgid="secure wpa" msgstr="WPA" />
+  <message msgid="secure wpa algorithm" msgstr="Algoritmos WPA" />
+  <message msgid="secure wpa pass phrase" msgstr="Frase de passagem" />
+  <message msgid="secure wpa key renew interval" msgstr="Intervalo de Renovação de Chave" />
+  <message msgid="secure wpa pmk cache period" msgstr="Período Cache PMK" />
+  <message msgid="secure wpa preauth" msgstr="Pre-Autentificação" />
+  <message msgid="secure 8021x wep" msgstr="802.1x WEP" />
+  <message msgid="secure 1x wep" msgstr=" WEP " />
+  <message msgid="secure radius" msgstr="Servidor Radius" />
+  <message msgid="secure radius ipaddr" msgstr="Endereço IP " />
+  <message msgid="secure radius port" msgstr=" Porta " />
+  <message msgid="secure radius shared secret" msgstr=" Compartilhamento Secreto " />
+  <message msgid="secure radius session timeout" msgstr=" Sessão Expirada " />
+  <message msgid="secure radius idle timeout" msgstr=" Tempo Inativo " />
+  <message msgid="secure access policy" msgstr=" Política de Acesso " />
+  <message msgid="secure access policy capable" msgstr=" Política " />
+  <message msgid="secure access policy new" msgstr="Adicione o Mac de uma estação:" />
+  <message msgid="secure access policy del" msgstr="Del" />
+
+  <message msgid="wps title" msgstr="Instalação Protegida Wi-Fi" />
+  <message msgid="wps introduction" msgstr="Você poderia fazer facilmente a configuração de segurança escolhendo PIN ou o método de Instalação Protegida Wi-Fi." />
+  <message msgid="wps config" msgstr="WPS Config" />
+  <message msgid="wps wps" msgstr="WPS: " />
+  <message msgid="wps summary" msgstr="Resumo WPS" />
+  <message msgid="wps current status" msgstr="Status Atual WPS: " />
+  <message msgid="wps configured" msgstr="Configurado WPS: " />
+  <message msgid="wps ssid" msgstr="WPS SSID: " />
+  <message msgid="wps auth mode" msgstr="Modo de Autenticação WPS: " />
+  <message msgid="wps encryp type" msgstr="Criptografia do Tipo WPS: " />
+  <message msgid="wps default key index" msgstr="Índice de chave padrão WPS: " />
+  <message msgid="wps ap pin" msgstr="AP PIN: " />
+  <message msgid="wps reset oob" msgstr="Resetar OOB" />
+  <message msgid="wps progress" msgstr="Progresso WPS" />
+  <message msgid="wps mode" msgstr="Modo WPS" />
+  <message msgid="wps pin mode" msgstr="PIN " />
+  <message msgid="wps pbc mode" msgstr="PBC " />
+  <message msgid="wps pin num" msgstr="PIN" />
+  <message msgid="wps status" msgstr="Status WPS" />
+
+  <message msgid="stalist title" msgstr="Lista de Estações" />
+  <message msgid="stalist introduction" msgstr="Você pode acompanhar as estações, associadas a este AP aqui. " />
+  <message msgid="stalist wireless network" msgstr="Rede sem fio" />
+  <message msgid="stalist macaddr" msgstr="Endereço MAC" />
+
+  <message msgid="prof title" msgstr="Estação de Perfil" />
+  <message msgid="prof introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="prof list" msgstr="Lista de Perfis" />
+  <message msgid="prof profile" msgstr="Perfil" />
+
+  <message msgid="link title" msgstr="Status do Link da Estação " />
+  <message msgid="link introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="link link status" msgstr="Status do Link" />
+  <message msgid="link status" msgstr="Status" />
+  <message msgid="link extra info" msgstr="Informação Extra" />
+  <message msgid="link speed" msgstr="Velocidade do Link" />
+  <message msgid="link throughput" msgstr="Throughput" />
+  <message msgid="link quality" msgstr="Qualidade do Link" />
+  <message msgid="link signal strength" msgstr="Força do Sinal " />
+  <message msgid="link noise level" msgstr="Nível de Ruído" />
+  <message msgid="link ht" msgstr="HT" />
+  <message msgid="link snr" msgstr="SNR" />
+
+  <message msgid="scan title" msgstr="Estação de Pesquisa no Site" />
+  <message msgid="scan introduction" msgstr="Página de pesquisa no Site mostra informações de pontos de acesso nas proximidades. Você pode escolher um destes APs ligar ou adicioná-lo ao perfil." />
+  <message msgid="scan site survey" msgstr="Pesquisa no Site" />
+  <message msgid="scan bssid" msgstr="BSSID" />
+  <message msgid="scan rssi" msgstr="RSSI" />
+  <message msgid="scan connet" msgstr="Conectar" />
+  <message msgid="scan rescan" msgstr="Rescan" />
+  <message msgid="scan add profile" msgstr="Adicionar Perfil" />
+
+  <message msgid="addprof system config" msgstr="Configuração do Sistema" />
+  <message msgid="addprof profile name" msgstr="Nome do Perfil" />
+  <message msgid="addprof adhoc" msgstr="802.11 Ad Hoc" />
+  <message msgid="addprof infrastructure" msgstr="Infra-estrutura" />
+  <message msgid="addprof power save" msgstr="Modo econômico de energia" />
+  <message msgid="addprof cam" msgstr="CAM (Constantly Awake Mode)" />
+  <message msgid="addprof preamble type" msgstr="11B Preamble Type" />
+  <message msgid="addprof secure policy" msgstr="Política de Segurança" />
+  <message msgid="addprof wep key length" msgstr="Comprimento da Chave WEP" />
+  <message msgid="addprof wep key entry method" msgstr="Método de Entrada da Chave WEP" />
+  <message msgid="addprof hex" msgstr="Hexadecimal" />
+  <message msgid="addprof ascii" msgstr="Texto Ascii" />
+  <message msgid="addprof 8021X Auth Type" msgstr="Tipo de Autenticação" />
+  <message msgid="addprof tunnel auth" msgstr="Tunnel Authentication" />
+  <message msgid="addprof identity" msgstr="Identidade" />
+  <message msgid="addprof passwd" msgstr="Senha" />
+  <message msgid="addprof client cert" msgstr="Certificado do Cliente" />
+  <message msgid="addprof client cert path" msgstr="Caminho do Certificado do Cliente" />
+  <message msgid="addprof private key path" msgstr="Caminho da Chave Privada" />
+  <message msgid="addprof private key passwd" msgstr="Senha da Chave Privada" />
+  <message msgid="addprof ca cert" msgstr="Certificado CA" />
+  <message msgid="addprof ca cert path" msgstr="Caminho Certificado CA" />
+
+  <message msgid="statistic title" msgstr="Estatística da Estação" />
+  <message msgid="statistic introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="statistic tx" msgstr="Estatísticas de Transmissão" />
+  <message msgid="statistic rx" msgstr="Receber Estatísticass" />
+  <message msgid="statistic reset counter" msgstr="Zerar contadores" />
+
+  <message msgid="staadv title" msgstr="Estação de Configurações Avançadas" />
+  <message msgid="staadv introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="staadv config" msgstr="Configurações Avançadas" />
+  <message msgid="staadv infra" msgstr="Modo Wireless (Infra)" />
+  <message msgid="staadv country" msgstr="Código do país" />
+  <message msgid="staadv bgprotect" msgstr="Proteção B/G" />
+  <message msgid="staadv tx rate" msgstr="Tx Taxa" />
+  <message msgid="staadv bw" msgstr="BW" />
+  <message msgid="staadv gi" msgstr="GI" />
+
+  <message msgid="qos title" msgstr="Estação de Configurações Avançadas" />
+  <message msgid="qos introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="qos config" msgstr="Configuração Qos" />
+  <message msgid="qos wmm" msgstr="WMM" />
+  <message msgid="qos wmm power save" msgstr="Economia de Energia WMM" />
+  <message msgid="qos wmm ps mode" msgstr="Modo PS" />
+  <message msgid="qos dls" msgstr="Instalação do Link direto" />
+  <message msgid="qos dls timeoutvalue" msgstr="Valor Expirado" />
+  <message msgid="qos second" msgstr=" sec" />
+  <message msgid="qos dls status" msgstr="Status DLS" />
+  <message msgid="qos dls timeout" msgstr="Expirado" />
+  <message msgid="qos teardown" msgstr="Destruir" />
+
+  <message msgid="11n title" msgstr="Configurações da Estação de 11n" />
+  <message msgid="11n introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="11n config" msgstr="Configurações 11n" />
+  <message msgid="11n ampdu" msgstr="Agregação MPDU" />
+  <message msgid="11n ampdu manual" msgstr="Manual" />
+  <message msgid="11n mpdu density" msgstr="Densidade MPDU" />
+
+  <message msgid="about title" msgstr="Sobre a Estação" />
+  <message msgid="about introduction" msgstr="A página Status exibe as configurações e status da operação atual da estação." />
+  <message msgid="about about" msgstr="Sobre" />
+  <message msgid="about driver version" msgstr="Versão do Drive" />
+
+  <message msgid="stawps title" msgstr="Instalação Protegida Wi-Fi (STA)" />
+  <message msgid="stawps introduction" msgstr="Você poderia fazer facilmente a configuração de segurança escolhendo PIN ou o método de Instalação Protegida Wi-Fi." />
+  <message msgid="stawps scan" msgstr=" Pesquisa no site AP WPS " />
+  <message msgid="stawps refresh" msgstr="Refresh" />
+  <message msgid="stawps mode" msgstr="Modo" />
+  <message msgid="stawps enrollee" msgstr="Registrando" />
+  <message msgid="stawps registrar" msgstr="Registrar" />
+  <message msgid="stawps pin start" msgstr="Início PIN" />
+  <message msgid="stawps pbc start" msgstr="Início PBC" />
+  <message msgid="stawps renew pin" msgstr="Renovar PIN" />
+  <message msgid="stawps registrar set" msgstr=" Registrar Configurações" />
+  <message msgid="stawps wep key type" msgstr="Tipo de Chave WEP" />
+  <message msgid="stawps wep key index" msgstr="Índice de Chave WEP" />
+  <message msgid="stawps key" msgstr="Chave" />
+  <message msgid="stawps submit" msgstr=" Submeter " />
+  
+  <message msgid="mesh title" msgstr="Rede Mesh" />
+  <message msgid="mesh introduction" msgstr="Uma rede Mesh é uma LAN IEEE 802 composto de IEEE 802.11 links e elementos de controle de transmitir frames entre os membros da rede." />
+  <message msgid="mesh capacity" msgstr="Capacidade da Rede" />
+  <message msgid="mesh settings" msgstr="Configurações da Rede" />
+  <message msgid="mesh mid" msgstr="ID da Rede" />
+  <message msgid="mesh hostname" msgstr="Host Name" />
+  <message msgid="mesh autolink" msgstr="Auto Link" />
+  <message msgid="mesh manual" msgstr="Manual do Link da Rede" />
+  <message msgid="mesh mpmac" msgstr="Ponto de Rede do Endereço MAC" />
+  <message msgid="mesh info" msgstr="Rede de Informação" />
+  <message msgid="mesh nbrmacaddr" msgstr="Endereço MAC próximo" />
+</po>
+  

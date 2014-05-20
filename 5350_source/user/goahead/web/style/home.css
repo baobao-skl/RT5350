@@ -1,0 +1,13 @@
+.title_up_left{line-height:89px;width:798px;background-image:url(../graphics/logo.png);background-repeat:no-repeat;}
+
+.title_down_left{text-indent:36px;background-image:url(../graphics/middle_left.png);font-weight:bold;font-size:14px;line-height:44px;width:300px;}
+.title_down_center{background-image:url(../graphics/middle_center.png);background-repeat:repeat-x;}
+.title_down_right{background-image:url(../graphics/middle_right.png);text-align:right;font-size:12px;line-height:44px;width:300px;}
+
+.bottom_left{HEIGHT:41px;background-image:url(../graphics/bottom_left.png);width:15px;background-repeat:no-repeat;}
+.bottom_right{HEIGHT:41px;background-image:url(../graphics/bottom_right.png);width:15px;background-repeat:no-repeat;}
+.bottom_gap{HEIGHT:41px;background-image:url(../graphics/bottom_center1.png);background-repeat:repeat-x;}
+.bottom_center{HEIGHT:41px;WIDTH:300px;background-image:url(../graphics/bottom_center.png);background-repeat:no-repeat;}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+

@@ -1,0 +1,188 @@
+<po>
+  <message msgid="inet apply" msgstr="Apply" />
+  <message msgid="inet cancel" msgstr="Cancel" />
+  <message msgid="inet enable" msgstr="Enable" />
+  <message msgid="inet disable" msgstr="Disable" />
+
+  <message msgid="inet mac" msgstr="MAC Address" />
+  <message msgid="inet ip" msgstr="IP Address" />
+  <message msgid="inet server" msgstr="Server IP" />
+  <message msgid="inet netmask" msgstr="Subnet Mask" />
+  <message msgid="inet lan2" msgstr="LAN 2" />
+  <message msgid="inet lan2 ip" msgstr="LAN2 IP Address" />
+  <message msgid="inet lan2 netmask" msgstr="LAN2 Subnet Mask" />
+  <message msgid="inet gateway" msgstr="Default Gateway" />
+  <message msgid="inet pri dns" msgstr="Primary DNS Server" />
+  <message msgid="inet sec dns" msgstr="Secondary DNS Server" />
+  <message msgid="inet user" msgstr="User Name" />
+  <message msgid="inet password" msgstr="Password" />
+  <message msgid="inet pass2" msgstr="Verify Password" />
+  <message msgid="inet hostname" msgstr="Hostname" />
+
+  <message msgid="wan title" msgstr="Wide Area Network (WAN) Settings" />
+  <message msgid="wan introduction" msgstr="You may choose different connection type suitable for your environment. Besides, you may also configure parameters according to the selected connection type." />
+  <message msgid="wan connection type" msgstr="WAN Connection Type:" />
+  <message msgid="wan connection type static" msgstr="STATIC (fixed IP)" />
+  <message msgid="wan connection type dhcp" msgstr="DHCP (Auto config)" />
+  <message msgid="wan connection type pppoe" msgstr="PPPoE (ADSL)" />
+  <message msgid="wan connection type l2tp" msgstr="L2TP" />
+  <message msgid="wan connection type pptp" msgstr="PPTP" />
+  <message msgid="wan protocol opmode" msgstr="Operation Mode" />
+  <message msgid="wan protocol opmode keepalive" msgstr="Keep Alive" />
+  <message msgid="wan protocol opmode ondemand" msgstr="On Demand" />
+  <message msgid="wan protocol opmode manual" msgstr="Manual" />
+
+  <message msgid="wan static mode" msgstr="Static Mode" />
+  <message msgid="wan dhcp mode" msgstr="DHCP Mode" />
+  <message msgid="wan pppoe mode" msgstr="PPPoE Mode" />
+  <message msgid="wan l2tp mode" msgstr="L2TP Mode" />
+  <message msgid="wan pptp mode" msgstr="PPTP Mode" />
+  <message msgid="wan 3G mode" msgstr="3G Mode" />
+  <message msgid="wan 3G modem" msgstr="USB 3G modem" />
+  <message msgid="wan address mode" msgstr="Address Mode" />
+  <message msgid="wan address mode static" msgstr="Static" />
+  <message msgid="wan address mode dynamic" msgstr="Dynamic" />
+
+  <message msgid="wan mac clone" msgstr="MAC Clone" />
+
+  <message msgid="lan title" msgstr="Local Area Network (LAN) Settings" />
+  <message msgid="lan introduction" msgstr="You may enable/disable networking functions and configure their parameters as your wish." />
+  <message msgid="lan setup" msgstr="LAN Setup" />
+  <message msgid="lan dhcp type" msgstr="DHCP Type" />
+  <message msgid="lan dhcp type server" msgstr="Server" />
+  <message msgid="lan dhcp start" msgstr="Start IP Address" />
+  <message msgid="lan dhcp end" msgstr="End IP Address" />
+  <message msgid="lan dhcp lease" msgstr="Lease Time" />
+  <message msgid="lan dhcp static" msgstr="Statically Assigned" />
+  <message msgid="lan stp" msgstr="802.1d Spanning Tree" />
+  <message msgid="lan lltd" msgstr="LLTD" />
+  <message msgid="lan igmpp" msgstr="IGMP Proxy" />
+  <message msgid="lan upnp" msgstr="UPNP" />
+  <message msgid="lan radvd" msgstr="Router Advertisement" />
+  <message msgid="lan pppoer" msgstr="PPPoE Relay" />
+  <message msgid="lan dnsp" msgstr="DNS Proxy" />
+
+  <message msgid="dhcp title" msgstr="DHCP Client List" />
+  <message msgid="dhcp introduction" msgstr="You could monitor DHCP clients here." />
+  <message msgid="dhcp clients" msgstr="DHCP Clients" />
+  <message msgid="dhcp expire" msgstr="Expires in" />
+
+  <message msgid="vpn title" msgstr="VPN Passthrough" />
+  <message msgid="vpn introduction" msgstr="VPN passthrought configurations including: L2TP, IPSec, and PPTP passthrough." />
+  <message msgid="vpn pass thru" msgstr="VPN Pass Through" />
+  <message msgid="vpn l2tp pass thru" msgstr="L2TP Passthrough" />
+  <message msgid="vpn ipsec pass thru" msgstr="IPSec Passthrough" />
+  <message msgid="vpn pptp pass thru" msgstr="PPTP Passthrough" />
+
+  <message msgid="routing title" msgstr="Static Routing Settings" />
+  <message msgid="routing Introduction" msgstr="You may add and remote custom Internet routing rules, and/or enable dynamic routing exchange protocol here." />
+  <message msgid="routing add rule" msgstr="Add a routing rule" />
+  <message msgid="routing routing dest" msgstr="Destination" />
+  <message msgid="routing range" msgstr="Range" />
+  <message msgid="routing netmask" msgstr="Netmask" />
+  <message msgid="routing gateway" msgstr="Gateway" />
+  <message msgid="routing interface" msgstr="Interface" />
+  <message msgid="routing custom" msgstr="Custom" />
+  <message msgid="routing comment" msgstr="Comment" />
+  <message msgid="routing submit" msgstr="Apply" />
+  <message msgid="routing reset" msgstr="Reset" />
+  <message msgid="routing Number" msgstr="No." />
+  <message msgid="routing del title" msgstr="Current Routing table in the system:" />
+  <message msgid="routing del dest" msgstr="Destination" />
+  <message msgid="routing del netmask" msgstr="Netmask" />
+  <message msgid="routing del gateway" msgstr="Gateway" />
+  <message msgid="routing del flags" msgstr="Flags" />
+  <message msgid="routing del metric" msgstr="Metric" />
+  <message msgid="routing del ref" msgstr="Ref" />
+  <message msgid="routing del use" msgstr="Use" />
+  <message msgid="routing del interface" msgstr="Interface" />
+  <message msgid="routing del comment" msgstr="Comment" />
+  <message msgid="routing del" msgstr="Delete" />
+  <message msgid="routing del reset" msgstr="Reset" />
+  <message msgid="routing host" msgstr="Host" />
+  <message msgid="routing net" msgstr="Net" />
+  <message msgid="routing LAN" msgstr="LAN" />
+  <message msgid="routing WAN" msgstr="WAN" />
+
+  <message msgid="routing dynamic Title" msgstr="Dynamic Routing Settings" />
+  <message msgid="routing dynamic Title2" msgstr="Dynamic Routing Protocol" />
+  <message msgid="routing dynamic rip disable" msgstr="Disable" />
+  <message msgid="routing dynamic rip enable" msgstr="Enable" />
+  <message msgid="routing dynamic rip apply" msgstr="Apply" />
+  <message msgid="routing dynamic rip reset" msgstr="Reset" />
+
+  <message msgid="qos title" msgstr="Quality of Service Settings" />
+  <message msgid="qos intro" msgstr="You may setup rules to provide Quality of Service guarantees for specific applications." />
+  <message msgid="qos setup" msgstr="QoS Setup" />
+  
+  <message msgid="qos upload band width" msgstr="Upload bandWidth" />
+  <message msgid="qos download band width" msgstr="Download BandWidth" />
+  <message msgid="qos start ip" msgstr="start Ip" />
+  <message msgid="qos end ip" msgstr="End Ip" />
+  <message msgid="qos direction" msgstr="Direction" />
+  <message msgid="qos min stream rate" msgstr="Min Stream Rate" />
+  <message msgid="qos max stream rate" msgstr="Max Stream Rate" />
+  <message msgid="qos current filter" msgstr="Current Qos  rules in system: " />
+  <message msgid="qos current filter no" msgstr="NO." />
+  <message msgid="qos upload band width show" msgstr="Upload bandWidth" />
+  <message msgid="qos download band width show" msgstr="Download BandWidth" />
+  <message msgid="qos start ip show" msgstr="start Ip" />
+  <message msgid="qos end ip show" msgstr="End Ip" />
+  <message msgid="qos direction show" msgstr="Direction" />
+  <message msgid="qos down direction" msgstr="download" />
+  <message msgid="qos up direction" msgstr="upload" />
+  <message msgid="qos max stream rate show" msgstr="Max Stream Rate" />
+  <message msgid="qos min stream rate show" msgstr="Min Stream Rate" />
+  <message msgid="qos setup submit" msgstr="Submit" />
+  <message msgid="qos reset" msgstr="Reset" />
+  <message msgid="qos del select" msgstr="Delete Selected" />
+  <message msgid="firewall default drop" msgstr="Others would be dropped" />
+  <message msgid="firewall default accept" msgstr="Others would be accepted" />
+
+  <message msgid="qos classifier title" msgstr="Classifier Settings" />
+  <message msgid="qos classifier name" msgstr="Name" />
+  <message msgid="qos classifier group" msgstr="Group" />
+  <message msgid="qos classifier mac" msgstr="MAC Address" />
+  <message msgid="qos classifier dip" msgstr="Dest. IP address" />
+  <message msgid="qos classifier sip" msgstr="Src. IP address" />
+  <message msgid="qos classifier pktlen" msgstr="Packet Length" />
+  <message msgid="qos classifier dscp" msgstr="DSCP" />
+  <message msgid="qos classifier proto" msgstr="Protocol" />
+  <message msgid="qos classifier dport" msgstr="Dest. port" />
+  <message msgid="qos classifier sport" msgstr="Src. port" />
+  <message msgid="qos classifier l7" msgstr="Application" />
+  <message msgid="qos classifier remark" msgstr="Remark DSCP as:" />
+  <message msgid="qos classifier auto" msgstr="Auto" />
+  
+  <message msgid="3G title" msgstr="3G Dial Configuration Setup" />
+  <message msgid="3G Content" msgstr="Setup 3G dial parameters, automatically or manually." />
+  <message msgid="3G Content1" msgstr="(Auto: Based on the SIM information, system will set the parameters automatically; Manual: User has to set the parameters manually)" />
+  <message msgid="3G sim pin" msgstr="SIM PIN" />
+  <message msgid="3G auto" msgstr="Auto" />
+  <message msgid="3G manual" msgstr="Manual" />
+  <message msgid="3G dial number" msgstr="Dial Number" />
+  <message msgid="3G user name" msgstr="User Name" />
+  <message msgid="3G pass Word" msgstr="Password" />
+  <message msgid="3G apn" msgstr="APN" />
+  
+  <message msgid="wifiaccess title" msgstr="Wifi Access" />
+  <message msgid="wwan scan button" msgstr="Scan" />
+  <message msgid="wwan channel" msgstr="Channel" />
+  <message msgid="wwan secure mode" msgstr="Security Mode" />
+  <message msgid="wwan secure disable" msgstr="Disable" />
+  <message msgid="wwan wep auth" msgstr="WEP Auth" />
+  <message msgid="wwan key type" msgstr="WEP Key Type" />
+  <message msgid="wwan default key id" msgstr="WEP default Key" />
+  <message msgid="wwan wpa encrypt" msgstr="WPA Algorithms" />
+  <message msgid="wwan scan channel" msgstr="Channel" />
+  <message msgid="wwan scan security" msgstr="Security" />
+  <message msgid="wwan scan encrypt" msgstr="Encrypt" />
+  <message msgid="wwan scan signal" msgstr="Signal(%)" />
+  <message msgid="wwan scan mode" msgstr="Mode" />
+  
+  <message msgid="keep alive mode" msgstr="Keep Alive Mode:Redial period" />
+  <message msgid="keep alive mode time" msgstr="seconds" />
+  <message msgid="on demand mode" msgstr="On demand mode:idle time" />
+  <message msgid="on demand mode time" msgstr="minutes" />
+  <message msgid="mac clone mac fill" msgstr="Fill my MAC" />
+</po>

@@ -1,0 +1,173 @@
+﻿<po>
+  <message msgid="inet apply" msgstr="Aplicar" />
+  <message msgid="inet cancel" msgstr="Cancelar" />
+  <message msgid="inet enable" msgstr="Habilitar" />
+  <message msgid="inet disable" msgstr="Desabilitar" />
+
+  <message msgid="inet mac" msgstr="Endereço MAC" />
+  <message msgid="inet ip" msgstr="Endereço IP" />
+  <message msgid="inet server" msgstr="Servidor IP" />
+  <message msgid="inet netmask" msgstr="Máscara de sub-rede" />
+  <message msgid="inet lan2" msgstr="LAN 2" />
+  <message msgid="inet lan2 ip" msgstr="Endereço IP LAN2" />
+  <message msgid="inet lan2 netmask" msgstr="Máscara de sub-rede LAN2" />
+  <message msgid="inet gateway" msgstr="Gateway Padrão" />
+  <message msgid="inet pri dns" msgstr="Servidor DNS Primário" />
+  <message msgid="inet sec dns" msgstr="Servidor DNS Secundário" />
+  <message msgid="inet user" msgstr="Nome do Usuário" />
+  <message msgid="inet password" msgstr="Senha" />
+  <message msgid="inet pass2" msgstr="Confirme sua senha" />
+  <message msgid="inet hostname" msgstr="Hostname" />
+
+  <message msgid="wan title" msgstr="Configurações Wide Area Network (WAN)" />
+  <message msgid="wan introduction" msgstr="Você pode escolher o tipo de conexão diferente apropriado para seu ambiente. Além disso, você também pode configurar os parâmetros de acordo com o tipo de conexão selecionado." />
+  <message msgid="wan connection type" msgstr="Conexão tipo WAN:" />
+  <message msgid="wan connection type static" msgstr="ESTÁTICO (IP fixo)" />
+  <message msgid="wan connection type dhcp" msgstr="DHCP (Auta configuração)" />
+  <message msgid="wan connection type pppoe" msgstr="PPPoE (ADSL)" />
+  <message msgid="wan connection type l2tp" msgstr="L2TP" />
+  <message msgid="wan connection type pptp" msgstr="PPTP" />
+  <message msgid="wan protocol opmode" msgstr="Modo de operação" />
+  <message msgid="wan protocol opmode keepalive" msgstr="Conservar" />
+  <message msgid="wan protocol opmode ondemand" msgstr="Na Demanda" />
+  <message msgid="wan protocol opmode manual" msgstr="Manual" />
+
+  <message msgid="wan static mode" msgstr="Modo Estático" />
+  <message msgid="wan dhcp mode" msgstr="Modo DHCP" />
+  <message msgid="wan pppoe mode" msgstr="Modo PPPoE" />
+  <message msgid="wan l2tp mode" msgstr="Modo L2TP" />
+  <message msgid="wan pptp mode" msgstr="Modo PPTP" />
+  <message msgid="wan 3G mode" msgstr="Modo 3G" />
+  <message msgid="wan 3G modem" msgstr="USB 3G modem" />
+  <message msgid="wan address mode" msgstr="Modo Endereço" />
+  <message msgid="wan address mode static" msgstr="Estático" />
+  <message msgid="wan address mode dynamic" msgstr="Dinâmico" />
+
+  <message msgid="wan mac clone" msgstr="Clone MAC" />
+
+  <message msgid="lan title" msgstr="Configurações Local Area Network (LAN)" />
+  <message msgid="lan introduction" msgstr="Você pode ativar/desativar funções de rede e configurar seus parâmetros como desejado." />
+  <message msgid="lan setup" msgstr="Instalação LAN" />
+  <message msgid="lan dhcp type" msgstr="Tipo DHCP" />
+  <message msgid="lan dhcp type server" msgstr="Servidor" />
+  <message msgid="lan dhcp start" msgstr="Endereço Inicial do IP" />
+  <message msgid="lan dhcp end" msgstr="Endereço Final do IP" />
+  <message msgid="lan dhcp lease" msgstr="Tempo de concessão" />
+  <message msgid="lan dhcp static" msgstr="Atribuídos estaticamente" />
+  <message msgid="lan stp" msgstr="802.1d Spanning Tree" />
+  <message msgid="lan lltd" msgstr="LLTD" />
+  <message msgid="lan igmpp" msgstr="IGMP Proxy" />
+  <message msgid="lan upnp" msgstr="UPNP" />
+  <message msgid="lan radvd" msgstr="Router Advertisement" />
+  <message msgid="lan pppoer" msgstr="PPPoE Relay" />
+  <message msgid="lan dnsp" msgstr="DNS Proxy" />
+
+  <message msgid="dhcp title" msgstr="Lista de Clientes DHCP" />
+  <message msgid="dhcp introduction" msgstr="Você poderá acompanhar os clientes DHCP aqui." />
+  <message msgid="dhcp clients" msgstr="Clientes DHCP" />
+  <message msgid="dhcp expire" msgstr="Expira em" />
+
+  <message msgid="vpn title" msgstr="VPN Passthrough" />
+  <message msgid="vpn introduction" msgstr="Configurações de VPN passthrought incluindo: L2TP, IPSec, PPTP e passthrough." />
+  <message msgid="vpn pass thru" msgstr="VPN Pass Through" />
+  <message msgid="vpn l2tp pass thru" msgstr="L2TP Passthrough" />
+  <message msgid="vpn ipsec pass thru" msgstr="IPSec Passthrough" />
+  <message msgid="vpn pptp pass thru" msgstr="PPTP Passthrough" />
+
+  <message msgid="routing title" msgstr="Configurações de Roteamaneto estático" />
+  <message msgid="routing Introduction" msgstr="Você pode adicionar a Internet remota e personalizar as regras de roteamento, e/ou ativar o protocolo de roteamento dinâmico aqui." />
+  <message msgid="routing add rule" msgstr="Adicionar uma regra de roteamento" />
+  <message msgid="routing routing dest" msgstr="Destino" />
+  <message msgid="routing range" msgstr="Alcance" />
+  <message msgid="routing netmask" msgstr="Netmask" />
+  <message msgid="routing gateway" msgstr="Gateway" />
+  <message msgid="routing interface" msgstr="Interface" />
+  <message msgid="routing custom" msgstr="Customização" />
+  <message msgid="routing comment" msgstr="Comentário" />
+  <message msgid="routing submit" msgstr="Aplicar" />
+  <message msgid="routing reset" msgstr="Resetar" />
+  <message msgid="routing Number" msgstr="Não." />
+  <message msgid="routing del title" msgstr="Atual Tabela de Roteamento do Sistema:" />
+  <message msgid="routing del dest" msgstr="Destino" />
+  <message msgid="routing del netmask" msgstr="Netmask" />
+  <message msgid="routing del gateway" msgstr="Gateway" />
+  <message msgid="routing del flags" msgstr="Bandeiras" />
+  <message msgid="routing del metric" msgstr="Métricas" />
+  <message msgid="routing del ref" msgstr="Ref" />
+  <message msgid="routing del use" msgstr="Uso" />
+  <message msgid="routing del interface" msgstr="Interface" />
+  <message msgid="routing del comment" msgstr="Comentário" />
+  <message msgid="routing del" msgstr="Deletar" />
+  <message msgid="routing del reset" msgstr="Resetar" />
+  <message msgid="routing host" msgstr="Host" />
+  <message msgid="routing net" msgstr="Net" />
+  <message msgid="routing LAN" msgstr="LAN" />
+  <message msgid="routing WAN" msgstr="WAN" />
+
+  <message msgid="routing dynamic Title" msgstr="Configurações de Roteamento Dinâmico" />
+  <message msgid="routing dynamic Title2" msgstr="Protocolo de Roteamento Dinâmico" />
+  <message msgid="routing dynamic rip disable" msgstr="Desabilitar" />
+  <message msgid="routing dynamic rip enable" msgstr="Habilitar" />
+  <message msgid="routing dynamic rip apply" msgstr="Aplicar" />
+  <message msgid="routing dynamic rip reset" msgstr="Resetar" />
+
+  <message msgid="qos title" msgstr="Configurações do Serviço de Qualidade" />
+  <message msgid="qos intro" msgstr="Você pode configurar regras para fornecer garantias de qualidade de serviço para aplicações específicas." />
+  <message msgid="qos setup" msgstr="Instalação QoS" />
+  
+  <message msgid="qos upload band width" msgstr="Upload banda larga" />
+  <message msgid="qos download band width" msgstr="Download banda larga" />
+  <message msgid="qos start ip" msgstr="Início Ip" />
+  <message msgid="qos end ip" msgstr="Fim Ip" />
+  <message msgid="qos direction" msgstr="Direção" />
+  <message msgid="qos min stream rate" msgstr="Min Fluxo de Taxa" />
+  <message msgid="qos max stream rate" msgstr="Max Fluxo de Taxa" />
+  <message msgid="qos current filter" msgstr="As atuais regras de Qos no sistema: " />
+  <message msgid="qos current filter no" msgstr="NÃO." />
+  <message msgid="qos upload band width show" msgstr="Upload banda larga" />
+  <message msgid="qos download band width show" msgstr="Download banda larga" />
+  <message msgid="qos start ip show" msgstr="Início Ip" />
+  <message msgid="qos end ip show" msgstr="Fim Ip" />
+  <message msgid="qos direction show" msgstr="Direção" />
+  <message msgid="qos down direction" msgstr="download" />
+  <message msgid="qos up direction" msgstr="upload" />
+  <message msgid="qos max stream rate show" msgstr="Max Fluxo de Taxa" />
+  <message msgid="qos min stream rate show" msgstr="Min Fluxo de Taxa" />
+  <message msgid="qos setup submit" msgstr="Submeter" />
+  <message msgid="qos reset" msgstr="Resetar" />
+  <message msgid="qos del select" msgstr="Deletar Selecionado" />
+  <message msgid="firewall default drop" msgstr="Outros seriam retiradas" />
+  <message msgid="firewall default accept" msgstr="Outros seriam aceitas" />
+
+  <message msgid="qos classifier title" msgstr="Configurações do Classifier" />
+  <message msgid="qos classifier name" msgstr="Nome" />
+  <message msgid="qos classifier group" msgstr="Grupo" />
+  <message msgid="qos classifier mac" msgstr="Endereço MAC" />
+  <message msgid="qos classifier dip" msgstr="Endereço IP Dest." />
+  <message msgid="qos classifier sip" msgstr="Endereço IP Src." />
+  <message msgid="qos classifier pktlen" msgstr="Packet Length" />
+  <message msgid="qos classifier dscp" msgstr="DSCP" />
+  <message msgid="qos classifier proto" msgstr="Protocolo" />
+  <message msgid="qos classifier dport" msgstr="Dest. port" />
+  <message msgid="qos classifier sport" msgstr="Src. port" />
+  <message msgid="qos classifier l7" msgstr="Aplicação" />
+  <message msgid="qos classifier remark" msgstr="Remark DSCP as:" />
+  <message msgid="qos classifier auto" msgstr="Auto" />
+  
+  <message msgid="3G title" msgstr="Configuração do discador 3G" />
+  <message msgid="3G Content" msgstr="Parâmetros de discagem 3G, automaticamente ou manualmente." />
+  <message msgid="3G Content1" msgstr="(Auto: Com base nas informações do SIM, o sistema irá definir os parâmetros automaticamente; Manual: O usuário tem de definir os parâmetros manualmente)" />
+  <message msgid="3G sim pin" msgstr="SIM PIN" />
+  <message msgid="3G auto" msgstr="Auto" />
+  <message msgid="3G manual" msgstr="Manual" />
+  <message msgid="3G dial number" msgstr="Número de Marcação" />
+  <message msgid="3G user name" msgstr="Nome do Usuário" />
+  <message msgid="3G pass Word" msgstr="Senha" />
+  <message msgid="3G apn" msgstr="APN" />
+  
+  <message msgid="keep alive mode" msgstr="Mantenha modo ativo:período de discagem" />
+  <message msgid="keep alive mode time" msgstr="segundos" />
+  <message msgid="on demand mode" msgstr="No modo de procura: tempo ocioso" />
+  <message msgid="on demand mode time" msgstr="minutos" />
+  <message msgid="mac clone mac fill" msgstr="Preencha meu MAC" />
+</po>

@@ -1,0 +1,15 @@
+div,ul,li,body{margin:0px;padding:0px;}
+body{font-family: Arial, Helvetica, sans-serif;}
+.dis{display:none;}
+.block{display:block;}
+
+a:link         {   text-decoration:none;   color:#404B55;}   
+a:visited   {   text-decoration:none;   color:#404B55;}   
+a:hover       {   text-decoration:none;   color:#22626E;font-weight:bold;}   
+a:active     {   text-decoration:none;   color:#22626E;}   
+
+.left_title{display:block; font-size:12px;font-weight:bold;line-height:28px;height:28px;width:224px;text-indent:28px;color:#404B55;background-image: url(left_bar.png);}
+.left_title_over{display:block; font-size:12px;font-weight:bold;line-height:28px;height:28px;width:224px;text-indent:28px;color:#22626E;background-image: url(left_focusbar.png);}
+.left_title_out{display:block; font-size:12px;font-weight:bold;line-height:28px;height:28px;width:224px;text-indent:28px;color:#404B55;background-image: url(left_bar.png);}
+.left_title_out_O{display:block; font-size:12px;font-weight:bold;line-height:28px;height:28px;width:224px;text-indent:28px;color:#22626E;background-image: url(left_titlebar.png);}
+.left_link{display:block; font-size:12px;line-height:28px;height:28px;width:224px;text-indent:28px;color:'#404B55';}

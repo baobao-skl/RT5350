@@ -1,0 +1,289 @@
+给HAME A100刷固件
+
+目的：
+		1. 给HAME A100刷固件
+		2. 配置上UVC驱动
+		3. 修改内核自带的UVC驱动，使其支持我们自制的二合一摄像头
+		4. 移植mjpg-streamer
+		5. 实现开机自启动、热拔插功能
+		
+		便携的无线监控设备 = 路由器(HAME A100) + USB摄像头(二合一摄像头) + 手机
+
+HAME A100：
+		CPU: RT5350
+		FLASH: 8M SPI FLASH
+		SDRAM: 32M
+		
+固件:
+		可以理解为我们自己的内核和文件系统
+
+
+
+一，环境的搭建
+
+	a,解压100ask_toolchain.bz2：
+			tar xjvf 100ask_toolchain.bz2
+			
+	b,安装工具连：
+			cd toolchain/
+			sudo tar jxf buildroot-gcc342.tar.bz2 -C /opt
+			
+	c,安装内核压缩工具：
+			cd lzma-4.32.0beta5
+			./configure
+			make
+			sudo make install
+			
+	d,安装rootfs工具：linux 2.6
+			cd ..
+			cd mksquash_lzma-3.2
+			make
+			sudo make install
+
+	若安装错误,安装zlib库。 sudo apt-get install zlib1g-dev
+
+
+
+
+二，配置与编译固件
+			tar xjvf 100ask.bz2
+			cd 5350_source/
+			vim .config
+					-- CONFIG_CROSS_COMPILER_PATH="/opt/buildroot-gcc342/bin"
+			make clean
+			make
+			
+结果：
+		flash_100ask_IP_Camera_debug_V1.0.4.bin
+			
+2.1 配置上UVC驱动
+
+Device Drivers  --->
+		Multimedia devices  --->
+				<*> Video For Linux
+				Video Capture Adapters  --->
+						 <*> USB Video Class (UVC)
+
+问：“/dev/video0”该设备节点是谁创建的？怎么取消掉？
+答：
+		1.肯定是通过运行脚步中的mknod这个命令来创建的。
+		通过分析内核的启动流程，发现internet.sh是我们要
+		找的脚步，然后在该脚步中发现了如下命令：
+		mknod   /dev/video0      c       81      0
+		
+		2. 要取消掉video0这个设备节点，只需将该行注释掉即可。
+
+2.2 修改UVC驱动
+			
+
+三，烧写固件
+		1. 连接好串口，并搭建好相应的环境后，启动路由器
+			Please choose the operation: 
+		   1: Load system code to SDRAM via TFTP. 
+		   2: Load system code then write to Flash via TFTP. 
+		   3: Boot system code via Flash (default).
+		   4: Entr boot command line interface.
+		   7: Load Boot Loader code then write to Flash via Serial. 
+		   9: Load Boot Loader code then write to Flash via TFTP
+		
+		2. 选择如上选项的1；
+		Please Input new ones /or Ctrl-C to discard
+        Input device IP (192.168.1.155) ==:192.168.1.155			// 设备IP，与服务器IP同一个网段
+        Input server IP (192.168.1.105) ==:192.168.1.105			// 服务器IP
+        Input Linux Kernel filename (flash_100ask_IP_Camera_debug_V1.0.4.bin) ==:flash_100ask_IP_Camera_debug_V1.0.4.bin		// 固件名称
+
+
+
+四，移植mjpg-streamer
+
+1. 安装交叉编译器
+vim /etc//environment
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/buildroot-gcc342/bin"
+sudo reboot
+mipsel-linux-gcc -v
+
+2. 交叉编译libjpeg
+tar xzvf libjpeg-turbo-1.2.1.tar.gz
+cd libjpeg-turbo-1.2.1
+mkdir tmp
+./configure --prefix=/work/mjpg_streamer/libjpeg-turbo-1.2.1/tmp/ --host=mipsel-linux
+make
+make install
+cp *so* /work/hame_a100/5350_source/romfs/lib -d
+
+3. 交叉编译mjpg-streamer
+tar xzvf mjpg-streamer-r63.tar.gz
+cd mjpg-streamer-r63/
+修改所有的Makefile
+		--(1) 将 CC=gcc 修改为 CC=mipsel-linux-gcc
+		--(2) 修改plugins/input_uvc/Makfile
+					a.将
+					CFLAGS += -O2 -DLINUX -D_GNU_SOURCE -Wall -shared -fPIC
+					改为
+					CFLAGS += -O2 -DLINUX -D_GNU_SOURCE -Wall -shared -fPIC -I /work/luyou/5350_source/linux-2.6.21.x/include -I /work/mjpg_streamer/libjpeg-turbo-1.2.1/tmp/include
+					
+					b.将
+					input_uvc.so: $(OTHER_HEADERS) input_uvc.c v4l2uvc.lo jpeg_utils.lo dynctrl.lo
+        								$(CC) $(CFLAGS) -ljpeg -o $@ input_uvc.c v4l2uvc.lo jpeg_utils.lo dynctrl.lo
+        	改为
+        	input_uvc.so: $(OTHER_HEADERS) input_uvc.c v4l2uvc.lo jpeg_utils.lo dynctrl.lo
+        								$(CC) $(CFLAGS) -ljpeg -L /work/mjpg_streamer/libjpeg-turbo-1.2.1/tmp/lib -o $@ input_uvc.c v4l2uvc.lo jpeg_utils.lo dynctrl.lo
+		
+make
+cp *so* /work/luyou/5350_source/romfs/lib -d
+cp mjpg_streamer /work/luyou/5350_source/romfs/bin/
+
+4. 测试
+1)
+二合一摄像头：
+mjpg_streamer -i "input_uvc.so -f 10 -r 320*240" -o "output_http.so -w www"
+
+一般的摄像头：
+mjpg_streamer -i "input_uvc.so -f 10 -r 320*240 -y" -o "output_http.so -w www"
+
+2)断开网线；
+3)手机连接上路hame a100由器的wifi信号；
+4)运行手机上的MjpegMonitor软件；
+
+五，热拔插
+
+mdev.conf的格式：
+<device regex> <uid>:<gid> <octal permissions> [<@|$|*> <command>]
+
+device regex：正则表达式，表示哪一个设备
+uid: owner
+gid: 组ID
+octal permissions：以八进制表示的属性
+@：创建设备节点之后执行命令
+$：删除设备节点之前执行命令
+*: 创建设备节点之后 和 删除设备节点之前 执行命令
+command：要执行的命令
+
+
+问：路由器上的文件系统中的/etc/mdev.conf是谁创建的？里面的内容又是谁填入的？
+答：
+		cd /work/hame_a100/5350_source/user/rt2880_app/scripts
+		vim
+		发现：
+		echo "# <device regex> <uid>:<gid> <octal permissions> [<@|$|*> <command>]" > /etc/mdev.conf
+    echo "# The special characters have the meaning:" >> /etc/mdev.conf
+    echo "# @ Run after creating the device." >> /etc/mdev.conf
+    echo "# $ Run before removing the device." >> /etc/mdev.conf
+    echo "# * Run both after creating and before removing the device." >> /etc/mdev.conf
+    echo "sd[a-z][1-9] 0:0 0660 */sbin/automount.sh \$MDEV" >> /etc/mdev.conf
+    echo "sd[a-z] 0:0 0660 */sbin/automount.sh \$MDEV" >> /etc/mdev.conf
+		
+
+问：怎么实现摄像头的热拔插功能？
+答：
+1).
+echo "video[012345]? 0:0 777 * /bin/mjpg-streamer.sh /dev/\$MDEV" >> /etc/mdev.conf
+
+2).
+实现mjpg-streamer.sh
+#!/bin/sh
+
+NAME=mjpg_streamer
+PROG=/bin/$NAME
+DEVICE=$1
+FPS=10
+RESOLUTION=320*240
+
+if [ $ACTION = "add" ];
+then
+        # USB video in
+        if [ -e $DEVICE ];then
+                $PROG -i "input_uvc.so -d $DEVICE -f $FPS -r $RESOLUTION" -o "output_http.so -w www" &
+        else
+                # not find device
+                exit -2
+        fi
+
+        sleep 3
+        # check if mjpg_streamer is running
+        pgrep $NAME
+        if [ $? -ne 0 ];then
+                # try to mjpg_streamer YUYV format
+                $PROG -i "input_uvc.so -d $DEVICE -y -f $FPS -r $RESOLUTION" -o "output_http.so -w www" &
+        fi
+     
+else
+
+        killall -9 $NAME
+        
+fi
+
+
+思路：
+先
+mjpg_streamer -i "input_uvc.so -f 10 -r 320*240" -o "output_http.so -w www"
+后
+mjpg_streamer -i "input_uvc.so -f 10 -r 320*240 -y" -o "output_http.so -w www"
+
+附件：
+-e file : 如果file是存在的，则返回真
+pgrep: 通过进程的名字来查询进程是否正常运行的工具，一般就是用来判断程序是否正常运行
+$?：表示最后支持的命令的推出状态，如果为0，则表示没有错误
+
+
+
+六，开机自启动
+
+1).写一个脚本文件run.sh
+#!/bin/sh
+
+NAME=mjpg_streamer
+PROG=/bin/$NAME
+DEVICE=/dev/video0
+FPS=10
+RESOLUTION=320*240
+        
+if [ -e $DEVICE ];then
+        $PROG -i "input_uvc.so -d $DEVICE -f $FPS -r $RESOLUTION" -o "output_http.so -w www" &
+        
+        sleep 3
+        # check if mjpg_streamer is running
+        pgrep $NAME
+        if [ $? -ne 0 ];then
+                # try to mjpg_streamer YUYV format
+                $PROG -i "input_uvc.so -d $DEVICE -y -f $FPS -r $RESOLUTION" -o "output_http.so -w www" &
+        fi
+
+else
+        # not find device
+        exit -2 
+fi
+
+
+2).让系统自动运行这个脚步文件
+
+将运行run.sh脚本的命令添加到internet.sh中即可
+
+七，将固件烧写到flash
+
+方法1：
+Please choose the operation: 
+   1: Load system code to SDRAM via TFTP. 
+   2: Load system code then write to Flash via TFTP. 
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+   7: Load Boot Loader code then write to Flash via Serial. 
+   9: Load Boot Loader code then write to Flash via TFTP. 
+
+You choosed 2			// 不同之处
+
+ 0 
+   
+2: System Load Linux Kernel then write to Flash via TFTP. 
+ Warning!! Erase Linux in Flash then burn new one. Are you sure?(Y/N)
+ Please Input new ones /or Ctrl-C to discard
+        Input device IP (192.168.1.155) ==:192.168.1.155
+        Input server IP (192.168.1.105) ==:192.168.1.105
+        Input Linux Kernel filename (flash_100ask_IP_Camera_debug_V1.0.4.bin) ==:flash_100ask_IP_Camera_debug_V1.0.4.bin
+
+方法2：
+		通过网络升级的办法来下载固件
+
+
+注意：
+		1. 串口的波特率为57600(8N1);

@@ -1,0 +1,228 @@
+<po>
+  <message msgid="admin disable" msgstr="Desativar" />
+  <message msgid="admin enable" msgstr="Habilitar" />
+  <message msgid="admin apply" msgstr="Aplicar" />
+  <message msgid="admin cancel" msgstr="Cancelar" />
+  <message msgid="admin reset" msgstr="Reset" />
+  <message msgid="admin scan" msgstr="Scan" />
+
+  <message msgid="man title" msgstr="Sistema de Gestão" />
+  <message msgid="man introduction" msgstr="Você pode configurar a conta de administrador e senha, as configurações do NTP, e as configurações de DNS dinâmico aqui." />
+  <message msgid="man introduction1" msgstr="Você pode configurar as definições de idioma aqui." />
+  <message msgid="man introduction2" msgstr="Você pode configurar a conta de administrador e as configurações de senha aqui." />
+  <message msgid="man introduction3" msgstr="Você pode configurar as definições de NTP aqui." />
+  <message msgid="man introduction4" msgstr="Você pode configurar o DNS aqui." />
+  <message msgid="man language setting" msgstr="Configurações de Idioma" />
+  <message msgid="man select language" msgstr="Selecione Linguagem" />
+  <message msgid="man admin setting" msgstr="Administrator Configurações" />
+  <message msgid="man admin account" msgstr="Administrator Configurações" />
+  <message msgid="man admin passwd" msgstr="Senha" />
+  <message msgid="man ntp setting" msgstr="NTP Configurações" />
+  <message msgid="man ntp timezone" msgstr="Fuso Horário:" />
+  <message msgid="man ntp mid island" msgstr="(GMT-11: 00) Midway Island, Samoa" />
+  <message msgid="man ntp hawaii" msgstr="(GMT-10: 00) Havaí" />
+  <message msgid="man ntp alaska" msgstr="(GMT-09: 00) Alaska" />
+  <message msgid="man ntp pacific" msgstr="(GMT-08: 00) Hora do Pacífico" />
+  <message msgid="man ntp mountain" msgstr="(GMT-07: 00) Horário das Montanhas" />
+  <message msgid="man ntp arizona" msgstr="(GMT-07: 00) Arizona" />
+  <message msgid="man ntp central" msgstr="(GMT-06: 00) Horário Central" />
+  <message msgid="man ntp mid us" msgstr="(GMT-06: 00) América do Oriente" />
+  <message msgid="man ntp indiana east" msgstr="(GMT-05: 00) Indiana Leste, Colômbia" />
+  <message msgid="man ntp eastern" msgstr="(GMT-05: 00) Hora do Leste" />
+  <message msgid="man ntp atlantic" msgstr="(GMT-04: 00) Hora do Atlântico, a Oeste do Brasil" />
+  <message msgid="man ntp bolivia" msgstr="(GMT-04: 00), Bolívia, Venezuela" />
+  <message msgid="man ntp guyana" msgstr="(GMT-03: 00) Guiana" />
+  <message msgid="man ntp brazil east" msgstr="(GMT-03: 00) Brasil Leste, Gronelândia" />
+  <message msgid="man ntp mid atlantic" msgstr="(GMT-02: 00) Mid-Atlantic" />
+  <message msgid="man ntp azores islands" msgstr="(GMT-01: 00) Arquipélago dos Açores" />
+  <message msgid="man ntp gambia" msgstr="(GMT) Gâmbia Libéria, Marrocos" />
+  <message msgid="man ntp england" msgstr="(GMT) na Inglaterra" />
+  <message msgid="man ntp czech republic" msgstr="(GMT +01:00) República Checa, N" />
+  <message msgid="man ntp germany" msgstr="(GMT +01:00) Alemanha" />
+  <message msgid="man ntp tunisia" msgstr="(GMT +01:00) Tunísia" />
+  <message msgid="man ntp greece" msgstr="(GMT +02:00) Grécia, Ucrânia, Turquia" />
+  <message msgid="man ntp south africa" msgstr="(GMT +02:00) África do Sul" />
+  <message msgid="man ntp iraq" msgstr="(GMT +03:00) Jordânia no Iraque, Kuwait" />
+  <message msgid="man ntp moscow winter" msgstr="(GMT +03:00) Horário de Inverno de Moscou" />
+  <message msgid="man ntp armenia" msgstr="(GMT +04:00) Arménia" />
+  <message msgid="man ntp pakistan" msgstr="(GMT +05:00) Paquistão, Rússia" />
+  <message msgid="man ntp bangladesh" msgstr="(GMT +06:00) Bangladesh, Rússia" />
+  <message msgid="man ntp thailand" msgstr="(GMT +07:00) Tailândia, Rússia" />
+  <message msgid="man ntp chinacoast" msgstr="(GMT +08:00) costa da China, Hong Kong" />
+  <message msgid="man ntp taipei" msgstr="(GMT+08:00) Taipei" />
+  <message msgid="man ntp singapore" msgstr="(GMT +08:00) Cingapura" />
+  <message msgid="man ntp australia wa" msgstr="(GMT +08:00) Austrália (WA)" />
+  <message msgid="man ntp japan" msgstr="(GMT +09:00) Japão, Coréia" />
+  <message msgid="man ntp korean" msgstr="(GMT +09:00) coreano" />
+  <message msgid="man ntp guam" msgstr="(GMT +10:00) Guam, Rússia" />
+  <message msgid="man ntp australia qld" msgstr="(GMT +10:00) Austrália (QLD, TAS, NSW, ACT, VIC)" />
+  <message msgid="man ntp solomon islands" msgstr="(GMT +11:00) Ilhas Salomão" />
+  <message msgid="man ntp fiji" msgstr="(GMT+12:00) Fiji" />
+  <message msgid="man ntp newzealand" msgstr="(GMT +12:00) Nova Zelândia" />
+  <message msgid="man ntp server" msgstr="Servidor NTP" />
+  <message msgid="man ntp sync" msgstr="NTP sincronização (horas)" />
+  <message msgid="man ntp current time" msgstr="Hora Atual" />
+  <message msgid="man ntp sync with host" msgstr="Sincronização com o anfitrião" />
+  <message msgid="man gap title" msgstr="Green AP" />
+  <message msgid="man gap time" msgstr="Duração" />
+  <message msgid="man gap action" msgstr="Ação" />
+  <message msgid="man ddns setting" msgstr="DDNS Configurações" />
+  <message msgid="man ddns provider" msgstr="Dynamic DNS Provedor" />
+  <message msgid="man ddns none" msgstr="Nenhum" />
+  <message msgid="man ddns account" msgstr="Conta" />
+  <message msgid="man ddns passwd" msgstr="Senha" />
+  <message msgid="man ddns" msgstr="DDNS" />
+
+  <message msgid="upload title" msgstr="Upgrade de Firmware" />
+  <message msgid="upload introduction1" msgstr="Atualizar o firmware para obter novas funcionalidades. " />
+  <message msgid="upload introduction2" msgstr="Demora cerca de 3 minutos para carregar &#160; atualização do flash e por favor seja paciente. Cuidado! A imagem corrompida irá travar o sistema." />
+  <message msgid="upload firmware" msgstr="Atualização de firmware" />
+  <message msgid="upload firmware location" msgstr="Localização:" />
+  <message msgid="upload bootloader" msgstr="Update Bootloader" />
+  <message msgid="upload bootloader location" msgstr="Localização:" />
+  <message msgid="upload firmware from usb" msgstr="Atualização de firmware por USB" />
+  <message msgid="upload firmware force upgrade via mem" msgstr="Força atualização de firmware através de mem " />
+  <message msgid="upload firmware force" msgstr="Força:" />
+
+  <message msgid="setman title" msgstr="Configurações de Gestão" />
+  <message msgid="setman introduction" msgstr="Você pode salvar as configurações do sistema, exportá-los para um arquivo de configuração, restaurá-los através da importação do arquivo, ou redefini-los ao padrão de fábrica." />
+  <message msgid="setman export setting" msgstr="Exportar Configurações" />
+  <message msgid="setman export setting button" msgstr="Botão Exportar" />
+  <message msgid="setman export setting export" msgstr="Exportação" />
+  <message msgid="setman import setting" msgstr="Configurações de importação" />
+  <message msgid="setman import setting file location" msgstr="Configurações de localização do arquivo" />
+  <message msgid="setman import setting import" msgstr="Importação" />
+  <message msgid="setman load factory default" msgstr="Padrões de fábrica de carga" />
+  <message msgid="setman load factory default button" msgstr="Load Default Button" />
+  <message msgid="setman load default" msgstr="Load Default" />
+
+  <message msgid="status title" msgstr="Informação" />
+  <message msgid="status introduction" msgstr="Dê uma olhada nas informações do sistema." />
+  <message msgid="status system information" msgstr="Sistema de Informações" />
+  <message msgid="status sdk version" msgstr="Versão do firmware" />
+  <message msgid="status system up time" msgstr="System Up Time" />
+  <message msgid="status system platform" msgstr="Sistema de Plataforma" />
+  <message msgid="status operate mode" msgstr="Modo de Operação" />
+  <message msgid="status internet config" msgstr="Configurações Internet" />
+  <message msgid="status connect type" msgstr="Conectado Tipo" />
+  <message msgid="3G Dial Status" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial Status1" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial Status2" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial Status3" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial Status4" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial Status5" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial Status6" msgstr="Status Dial 3G" />
+  <message msgid="3G Dial UP" msgstr="Link Up" />
+  <message msgid="3G Dial NO SIM" msgstr="SIM NÃO" />
+  <message msgid="3G Pin Fail" msgstr="Sim Pin Fail" />
+  <message msgid="3G Pin Successful" msgstr="Inicialização do cartão SIM sucesso" />
+  <message msgid="3G Dial Linking" msgstr="Vinculação..." />
+  <message msgid="3G Dial DOWN" msgstr="Link Down" />
+  <message msgid="3G Dial Signal" msgstr="Força do sinal" />
+  <message msgid="3G Dial ISP Provider" msgstr="ISP Provider" />
+  <message msgid="3G USB Modem Info Title" msgstr="Info Modem USB" />
+  <message msgid="3G USB Modem Detected" msgstr="Detectado" />
+  <message msgid="3G USB Modem Not Detected" msgstr="Não Detectado" />
+  <message msgid="3G USB Modem Status" msgstr="Status Modem USB" />
+  <message msgid="3G USB Modem Status1" msgstr="Status Modem USB" />
+  <message msgid="3G USB Modem Status2" msgstr="Status Modem USB" />
+  <message msgid="3G USB Modem Info" msgstr="Detectado: " />
+  <message msgid="3G USB Modem Firmware" msgstr="Firmware do modem USB" />
+  <message msgid="3G Sim Status" msgstr="Status SIM" />
+  <message msgid="3G Sim Status1" msgstr="Status SIM" />
+  <message msgid="3G Sim Status Insert" msgstr="Inserida: " />
+  <message msgid="status wan ipaddr" msgstr="Endereço IP WAN" />
+  <message msgid="status subnet mask" msgstr="Máscara de sub-" />
+  <message msgid="status default gateway" msgstr="Default Gateway" />
+  <message msgid="status primary dns" msgstr="Servidor de Nomes de Domínio Primário" />
+  <message msgid="status secondary dns" msgstr="Servidor de Nomes de Domínio Secundário" />
+  <message msgid="status local network" msgstr="Rede Local" />
+  <message msgid="status lan ipaddr" msgstr="Endereço IP Local" />
+  <message msgid="status local netmask" msgstr="Local Netmask" />
+  <message msgid="status mac" msgstr="MAC Address" />
+  <message msgid="status ethernet port status" msgstr="Status da porta Ethernet" />
+
+  <message msgid="statistic title" msgstr="Estatística" />
+  <message msgid="statistic introduction" msgstr=" Dê uma olhada nas estatísticas. " />
+  <message msgid="statistic memory" msgstr="Memória" />
+  <message msgid="statistic memory total" msgstr="Total de memória: " />
+  <message msgid="statistic memory left" msgstr="Memória esquerda: " />
+  <message msgid="statistic wanlan" msgstr="WAN/LAN" />
+  <message msgid="statistic wan rx pkt" msgstr="Pacotes WAN Rx: " />
+  <message msgid="statistic wan rx bytes" msgstr="WAN Rx bytes: " />
+  <message msgid="statistic wan tx pkt" msgstr="Pacotes WAN Tx: " />
+  <message msgid="statistic wan tx bytes" msgstr="WAN TX bytes: " />
+  <message msgid="statistic lan rx pkt" msgstr="Pacotes da LAN Rx: " />
+  <message msgid="statistic lan rx bytes" msgstr="LAN Rx bytes: " />
+  <message msgid="statistic lan tx pkt" msgstr="Pacotes da LAN Tx: " />
+  <message msgid="statistic lan tx bytes" msgstr="LAN TX bytes: " />
+  <message msgid="statistic all interface" msgstr="Todas as interfaces" />
+
+  <message msgid="syscommand title" msgstr="Sistema de Comando" />
+  <message msgid="syscommand introduction" msgstr=" Execute um sistema de comando como root: " />
+  <message msgid="syscommand system command" msgstr="Sistema de comando " />
+  <message msgid="syscommand command" msgstr="Comando:" />
+
+  <message msgid="syslog title" msgstr="Sistema de Registro" />
+  <message msgid="syslog introduction" msgstr="Dê uma olhada no syslog." />
+  <message msgid="syslog system log" msgstr="Sistema de Registro" />
+  <message msgid="syslog clear" msgstr="Limpar" />
+  <message msgid="syslog refresh" msgstr="Atualizar" />
+  
+  <message msgid="man ddns title" msgstr="DDNS Service" /> 
+  <message msgid="man select language title" msgstr="Definir o idioma do sistema" /> 
+  <message msgid="man ntp title" msgstr="Definir a hora do sistema" /> 
+  <message msgid="man admin passwd title" msgstr="Defina a conta do administrador e senha" /> 
+  <message msgid="admin imptitle" msgstr="Botão Exportar" /> 
+  <message msgid="admin exptitle" msgstr="Configurações de localização do arquivo" /> 
+  <message msgid="admin defaulttitle" msgstr="Load Default Button" />
+  
+  <message msgid="vpn title" msgstr="Configurações de VPN" />
+  <message msgid="vpn introduction" msgstr="Você pode configurar VPN parâmetros aqui." />
+  <message msgid="vpn rsa key" msgstr="RSA" />
+  <message msgid="generate rsa key" msgstr="Gerar RSA (512bit)-chave" />
+  <message msgid="show rsa key" msgstr="Show de chaves RSA" />
+  <message msgid="vpn setting" msgstr="Configurações de VPN" />
+  <message msgid="vpn tunnel" msgstr="túnel IPSec" />
+  <message msgid="vpn set ipsec" msgstr="Configurações de VPN (IPSEC)" />
+  <message msgid="vpn disable" msgstr="Desativar" />
+  <message msgid="vpn enable" msgstr="Habilitar" />
+  <message msgid="vpn conn name" msgstr="Nome" />
+  <message msgid="vpn auth type" msgstr="Tipo de Identificação" />
+  <message msgid="vpn local site" msgstr="Site local" />
+  <message msgid="vpn single addr" msgstr="Endereço Único" />	
+  <message msgid="vpn mask addr" msgstr="Endereço máscara" />
+  <message msgid="vpn local net" msgstr="IP Local / Net" />
+  <message msgid="vpn local mask" msgstr="Local Máscara" />
+  <message msgid="vpn remote site" msgstr="Site Remoto" />
+  <message msgid="vpn remote gateway" msgstr="Remote Gateway" />
+  <message msgid="vpn remote ip" msgstr="IP Remoto / Net" />
+  <message msgid="vpn remote mask" msgstr="Remote Máscara" />
+  <message msgid="vpn local remote" msgstr="Local / Remoto ID" />
+  <message msgid="vpn localid type" msgstr="Tipo de identificação do local" />
+  <message msgid="vpn local id" msgstr="Local ID" />
+  <message msgid="vpn remoteid type" msgstr="ID Remoto Tipo" />
+  <message msgid="vpn remote id" msgstr="ID Remoto" />
+  <message msgid="vpn key management" msgstr="Key Management" />
+  <message msgid="vpn conn type" msgstr="Tipo de conexão" />
+  <message msgid="vpn launch" msgstr="Lançamento" />
+  <message msgid="vpn response" msgstr="Lançamento" />
+  <message msgid="vpn encryption alg" msgstr="Algoritmo de criptografia" />
+  <message msgid="vpn identi alg" msgstr="Algoritmo de identificação" />
+  <message msgid="vpn key group" msgstr="Grupo de Chaves" />
+  <message msgid="vpn share key" msgstr="Parte da chave" />
+  <message msgid="vpn remote rsa key" msgstr="Remote RSA Key" />
+  <message msgid="vpn edit" msgstr="edição" />
+  <message msgid="vpn apply" msgstr="Guardar" />
+  <message msgid="vpn conn" msgstr="Connect" />
+  <message msgid="vpn disconn" msgstr="Desconectar" />
+  <message msgid="vpn reset" msgstr="Reset" />
+  <message msgid="vpn back" msgstr="Voltar" />
+  <message msgid="vpn current srv" msgstr="Atual VPN" />
+  <message msgid="vpn no" msgstr="Não." />
+  <message msgid="vpn local addr" msgstr="Local Address" />
+  <message msgid="vpn remote addr" msgstr="Endereço Remoto" />
+  <message msgid="vpn status" msgstr="Status" />
+  <message msgid="vpn delete" msgstr="Excluir" /> 
+</po>
+ 

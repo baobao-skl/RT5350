@@ -1,0 +1,88 @@
+<po>
+  <message msgid="usb disable" msgstr="Desabilitar" />
+  <message msgid="usb enable" msgstr="Habilitar" />
+  <message msgid="usb add" msgstr="Adicionar" />
+  <message msgid="usb edit" msgstr="Editar" />
+  <message msgid="usb del" msgstr="Deletar" />
+  <message msgid="usb apply" msgstr="Aplicar" />
+  <message msgid="usb cancel" msgstr="Cancelar" />
+  <message msgid="usb reset" msgstr="Resetar" />
+  <message msgid="usb format" msgstr="Formatar" />
+  <message msgid="usb reallocate" msgstr="Re-alocar" />
+  <message msgid="usb remove" msgstr="Remover Disco" />
+
+  <message msgid="storage adm title" msgstr="Administração" />
+  <message msgid="storage adm introduction" msgstr="" />
+  <message msgid="storage adm user" msgstr="Gerenciamento de Usuário" />
+  <message msgid="storage disk title" msgstr="Gerenciamento de Disco" />
+  <message msgid="storage disk display" msgstr="Lista de Pastas" />
+  <message msgid="storage disk dirpath" msgstr="Caminho do diretório" />
+  <message msgid="storage disk dirpart" msgstr="Partição" />
+  <message msgid="storage part display" msgstr="Status da Partição" />
+  <message msgid="storage part path" msgstr="Caminho" />
+  
+  <message msgid="storage user name" msgstr="Nome do Usuário" />
+  <message msgid="storage user ftp" msgstr="Permitir a utilização do FTP" />
+  <message msgid="storage user smb" msgstr="Permitir a utilização do Samba" />
+
+  <message msgid="adduser basic" msgstr="Configuração Básica" />
+  <message msgid="adduser name" msgstr="Nome do usuário" />
+  <message msgid="adduser password" msgstr="Senha" />
+  <message msgid="adduser ftp" msgstr="Instalação Ftp" />
+  <message msgid="adduser smb" msgstr="Instalação Samba" />
+  
+  <message msgid="ftp title" msgstr="Configuração FTP" />
+  <message msgid="ftp introduction" msgstr="" />
+  <message msgid="ftp server setup" msgstr="Configuração do Servidor de FTP" />
+  <message msgid="ftp server enable" msgstr="Servidor FTP" />
+  <message msgid="ftp server anonymous" msgstr="Login Anônimo" />
+  <message msgid="ftp server name" msgstr="Nome do Servidor de FTP" />
+  <message msgid="ftp server port" msgstr="Porta FTP" />
+  <message msgid="ftp server maxsessions" msgstr="Máx. Sessões" />
+  <message msgid="ftp server adddir" msgstr="Criar Diretório" />
+  <message msgid="ftp server rename" msgstr="Renomear Arquivo/Diretório" />
+  <message msgid="ftp server remove" msgstr="Remover Arquivo/Diretório" />
+  <message msgid="ftp server read" msgstr="Ler Arquivo" />
+  <message msgid="ftp server write" msgstr="Escrever Arquivo" />
+  <message msgid="ftp server download" msgstr="Capacidade de Download" />
+  <message msgid="ftp server upload" msgstr="Capacidade de Upload" />
+  
+  <message msgid="smb title" msgstr="Configurações do SAMBA" />
+  <message msgid="smb introduction" msgstr="" />
+  <message msgid="smb server setup" msgstr="Instalação do Servidor SAMBA" />
+  <message msgid="smb server enable" msgstr="Servidor SAMBA" />
+  <message msgid="smb server workgroup" msgstr="Grupo de Trabalho" />
+  <message msgid="smb server netbios" msgstr="Nome NetBIOS" />
+  <message msgid="smb server dirlist" msgstr="Sharing Directory List" />
+  <message msgid="smb server dirname" msgstr="Nome do Diretório" />
+  <message msgid="smb server dirpath" msgstr="Nome do Caminho" />
+  <message msgid="smb server allowuser" msgstr="Permitir Usuário" />
+  <message msgid="smb adddir name" msgstr="Nome do Diretório" />
+  <message msgid="smb adddir accessusers" msgstr="Acesso do Usuário" />
+  <message msgid="smb adddir accesspath" msgstr="Acesso do Caminho" />
+  
+  <message msgid="webcam title" msgstr="Instalação da Câmera Web" />
+  <message msgid="webcam introduction" msgstr="" />
+  <message msgid="webcam settings" msgstr="Configuração da Câmera Web" />
+  <message msgid="webcam capability" msgstr="Capacidade" />
+  <message msgid="webcam resolution" msgstr="Resolução" />
+  <message msgid="webcam fps" msgstr="Quadros por segundo" />
+  <message msgid="webcam port" msgstr="Porta" />
+  
+  <message msgid="printer title" msgstr="Configurações do Servidor de Impressora" />
+  <message msgid="printer introduction" msgstr="" />
+  <message msgid="printer settings" msgstr="Instalação do Servidor de Impressora" />
+  <message msgid="printer capability" msgstr="Capacidade" />
+  
+  <message msgid="usbiNIC title" msgstr="Configurações USB iNIC" />
+  <message msgid="usbiNIC introduction" msgstr="" />
+  <message msgid="usbiNIC settings" msgstr="Instalação USB iNIC" />
+  <message msgid="usbiNIC capability" msgstr="Capacidade" />
+  
+  <message msgid="itunes title" msgstr="Configurações do Servidor iTunes" />
+  <message msgid="itunes introduction" msgstr="" />
+  <message msgid="itunes settings" msgstr="Configuração do Servidor iTunes" />
+  <message msgid="itunes capability" msgstr="Capacidade" />
+  <message msgid="itunes showDisk" msgstr="Biblioteca de Seleção de Mídia" />
+  <message msgid="itunes srv_name" msgstr="Nome do Servidor" />
+</po>

@@ -1,0 +1,92 @@
+<po>
+  <message msgid="main disable" msgstr="Desabilitar" />
+  <message msgid="main enable" msgstr="Habilitar" />
+  <message msgid="main apply" msgstr="Aplicar" />
+  <message msgid="main cancel" msgstr="Cancelar" />
+
+  <message msgid="overview introduction" msgstr="802.11n" />
+  <message msgid="overview select language" msgstr="Selecione o idioma" />
+  <message msgid="overview status link" msgstr="Status" />
+  <message msgid="overview statistic link" msgstr="Estatística" />
+  <message msgid="overview management link" msgstr="Gestão" />
+  <message msgid="treeapp openall" msgstr="abrir todos" />
+  <message msgid="treeapp closeall" msgstr="fechar todos" />
+  <message msgid="treeapp ralink" msgstr="3G Router" />
+  <message msgid="treeapp operation mode" msgstr="Modo de operação" />
+  <message msgid="treeapp internet settings" msgstr="Configurações da Internet" />
+  <message msgid="treeapp wan" msgstr="WAN" />
+  <message msgid="treeapp lan" msgstr="LAN" />
+  <message msgid="treeapp dhcp clients" msgstr="Clientes DHCP" />
+  <message msgid="treeapp vpn passthrough" msgstr="Encaminhar VPN" />
+  <message msgid="treeapp routing" msgstr="Roteamento Avançado" />
+  <message msgid="treeapp wireless settings" msgstr="Configurações da Wireless" />
+  <message msgid="treeapp inic settings" msgstr="Configurações I-NIC" />
+  <message msgid="treeapp legacy settings" msgstr="Configurações Legacy" />
+  <message msgid="treeapp profile" msgstr="Perfil" />
+  <message msgid="treeapp link status" msgstr="Status do Link" />
+  <message msgid="treeapp site survey" msgstr="Pesquisa no Site" />
+  <message msgid="treeapp statistics" msgstr="Estatísticas" />
+  <message msgid="treeapp advance" msgstr="Avançar" />
+  <message msgid="treeapp qos" msgstr="QoS" />
+  <message msgid="treeapp 11n configurations" msgstr="Formações 11n" />
+  <message msgid="treeapp about" msgstr="Sobre" />
+  <message msgid="treeapp wds" msgstr="WDS" />
+  <message msgid="treeapp wps" msgstr="WPS" />
+  <message msgid="treeapp basic" msgstr="Básico" />
+  <message msgid="treeapp advanced" msgstr="Avançado" />
+  <message msgid="treeapp security" msgstr="Segurança" />
+  <message msgid="treeapp ap client" msgstr="Cliente AP" />
+  <message msgid="treeapp station list" msgstr="Lista de estações" />
+  <message msgid="treeapp mesh settings" msgstr="Rede de configurações" />
+  <message msgid="treeapp firewall" msgstr="Firewall" />
+  <message msgid="treeapp ip/port filtering" msgstr="Filtragem MAC/IP/Port" />
+  <message msgid="treeapp port forwarding" msgstr="Encaminhar Porta" />
+  <message msgid="treeapp dmz" msgstr="DMZ" />
+  <message msgid="treeapp content filtering" msgstr="Filtragem de conteúdo" />
+  <message msgid="treeapp administration" msgstr="Administração" />
+  <message msgid="treeapp management" msgstr="Gestão" />
+  <message msgid="treeapp upload firmware" msgstr="Upload Firmware" />
+  <message msgid="treeapp settings management" msgstr="Configurações de Gestão" />
+  <message msgid="treeapp status" msgstr="Status" />
+  <message msgid="treeapp system command" msgstr="Sistema de Comando" />
+  <message msgid="treeapp system log" msgstr="Sistema de Registro" />
+  <message msgid="treeapp sdk history" msgstr="Historico SDK" />
+  <message msgid="treeapp system firewall" msgstr="Sistema de Segurança" />
+   <message msgid="treeapp information" msgstr="Informação" />
+	<message msgid="treeapp system information" msgstr="Sistema de Informação" />
+	<message msgid="treeapp connecting information" msgstr="Conectando Informação" />
+	<message msgid="treeapp log" msgstr="Log" />
+	<message msgid="treeapp security1" msgstr="Segurança" />
+	<message msgid="treeapp language" msgstr="Idioma" />
+	<message msgid="treeapp account" msgstr="Configurações do Administrador" />
+	<message msgid="treeapp upgrade" msgstr="Upgrade Firmware" />
+	<message msgid="treeapp parameter" msgstr="Configurações de Gestão" />
+	<message msgid="treeapp NTP" msgstr="NTP" />
+	<message msgid="treeapp DDNS" msgstr="DDNS" />
+	<message msgid="treeapp VPNSetup" msgstr="VPN" />
+
+  <message msgid="treeapp usb" msgstr="USB App." />
+  <message msgid="treeapp storage" msgstr="Armazenamento" />
+  <message msgid="treeapp useradmin" msgstr="Usuário Administrador" />
+  <message msgid="treeapp ftpsrv" msgstr="Servidor FTP" />
+  <message msgid="treeapp sambasrv" msgstr="Servidor SAMBA" />
+  <message msgid="treeapp mediasrv" msgstr="Servidor MEDIA" />
+  <message msgid="treeapp webcam" msgstr="Câmera Web" />
+  <message msgid="treeapp disk" msgstr="Disco" />
+  <message msgid="treeapp printersrv" msgstr="Serviço de Impressão" />
+  <message msgid="treeapp usbinic" msgstr="USB iNIC" />
+  
+  <message msgid="opmode title" msgstr="Operação do Modo de Configuração" />
+  <message msgid="opmode introduction" msgstr="Você pode configurar o modo de funcionamento adequado para seu ambiente" />
+  <message msgid="opmode mode b" msgstr="Bridge:" />
+  <message msgid="opmode mode b intro" msgstr="Todas as interfaces ethernet e wireless são ligados em uma interface única bridge." />
+  <message msgid="opmode mode g" msgstr="Gateway:" />
+  <message msgid="opmode mode g intro" msgstr="A porta ethernet primeiro é tratado como uma porta WAN. As outras portas ethernet e a interface wireless são interligados entre si e são tratados como portas LAN." />
+  <message msgid="opmode mode e" msgstr="Converter Ethernet:" />
+  <message msgid="opmode mode e intro" msgstr="A interface sem fio é tratada como uma porta WAN e as portas ethernet são portas LAN." />
+  <message msgid="opmode mode a" msgstr="Cliente AP:" />
+  <message msgid="opmode mode a intro" msgstr="A interface wireless apcli é tratada como uma porta WAN, ea interface ap wireless e as portas ethernet são portas LAN." />
+  <message msgid="opmode nat" msgstr="Habilitar NAT" />
+  <message msgid="opmode eth conv" msgstr="Habilitar Ethernet" />
+</po>
+
