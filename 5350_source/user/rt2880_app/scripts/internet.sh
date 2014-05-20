@@ -186,7 +186,7 @@ if [ "$CONFIG_USB_EHCI_HCD" != "" -o "$CONFIG_DWC_OTG" != "" -a "$CONFIG_HOTPLUG
 	mount -t devpts devpts /dev/pts
         mdev -s
 
-        mknod   /dev/video0      c       81      0
+        #mknod   /dev/video0      c       81      0
         mknod   /dev/spiS0       c       217     0
         mknod   /dev/i2cM0       c       218     0
         mknod   /dev/rdm0        c       254     0
